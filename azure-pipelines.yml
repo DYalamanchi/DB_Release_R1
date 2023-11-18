@@ -11,7 +11,7 @@ pool: Default
 steps:
 - task: RunOracleScripts@1
   inputs:
-    scriptPath: '$(System.DefaultWorkingDirectory)/_DYalamanchi_DB_Release_R1/'
+    scriptPath: 'D:\New folder\1. Projects\MOL\Devops\1\s\'
     user: 'DEVOPS_SAMPLE'
     password: 'Welcome1'
     databaseName: 'localhost:1521/XEPDB1'
